@@ -1,0 +1,30 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.23107.0
+Copyright (c) Microsoft Corporation. All rights reserved.
+    
+Loading ConsoleApplication4Tests.dll...
+Starting execution...
+
+Results               Top Level Tests
+-------               ---------------
+Passed                ConsoleApplication4.Tests.ProgramTests.EvaluatePostfixTest1
+Passed                ConsoleApplication4.Tests.ProgramTests.EvaluatePostfixTest2
+Passed                ConsoleApplication4.Tests.ProgramTests.EvaluatePostfixTest3
+Passed                ConsoleApplication4.Tests.ProgramTests.EvaluatePostfixTest4
+Passed                ConsoleApplication4.Tests.ProgramTests.EvaluatePostfixTest5
+Passed                ConsoleApplication4.Tests.ProgramTests.EvaluatePostfixTest6
+Passed                ConsoleApplication4.Tests.ProgramTests.InfixToPostfixTest1
+Passed                ConsoleApplication4.Tests.ProgramTests.InfixToPostfixTest2
+Passed                ConsoleApplication4.Tests.ProgramTests.InfixToPostfixTest3
+Passed                ConsoleApplication4.Tests.ProgramTests.InfixToPostfixTest4
+Passed                ConsoleApplication4.Tests.ProgramTests.InfixToPostfixTest5
+Passed                ConsoleApplication4.Tests.ProgramTests.InfixToPostfixTest6
+12/12 test(s) Passed
+
+Summary
+-------
+Test Run Completed.
+  Passed  12
+  ----------
+  Total   12
+Results file:  C:\Users\Paul Hood\Documents\Visual Studio 2015\Projects\ConsoleApplication4\ConsoleApplication4Tests\bin\Debug\TestResults\Paul Hood_WIN-3KO5M0CBMRF 2015-12-11 04_11_58.trx
+Test Settings: Default Test Settings
