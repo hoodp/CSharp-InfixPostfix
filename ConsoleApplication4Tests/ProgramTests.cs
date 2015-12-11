@@ -64,19 +64,20 @@ namespace ConsoleApplication4.Tests
         [TestMethod()]
         public void EvaluatePostfixTest3()
         {
-            Assert.AreEqual(6561, test.EvaluatePostfix("3 2 1 2 + ^ ^"));
+            Assert.AreEqual(660, 
+                test.EvaluatePostfix("10 2 2 2 ^ ^ * 10 50 * +"));
         }
 
         [TestMethod()]
         public void EvaluatePostfixTest4()
         {
-            Assert.AreEqual(6561, test.EvaluatePostfix("3 2 1 2 + ^ ^"));
+            Assert.AreEqual(2, test.EvaluatePostfix("100 50 2 3 ^ - / 50 10 / - 5 +"));
         }
 
         [TestMethod()]
         public void EvaluatePostfixTest5()
         {
-            Assert.AreEqual(6561, test.EvaluatePostfix("3 2 1 2 + ^ ^"));
+            Assert.AreEqual(35, test.EvaluatePostfix("10 54 10 % 25 10 - 2 2 ^ + * 3 / +"));
         }
 
         [TestMethod()]
