@@ -7,15 +7,22 @@ namespace ConsoleApplication4
     public class Program
     {
 
+        /// <summary>
+        /// Empty Constructor.
+        /// </summary>
         public Program() { }
 
-        static void Main(string[] args)
-        {
-            Program test = new Program();
-            string postfix = Console.ReadLine();
-            Console.WriteLine(test.EvaluatePostfix(postfix));
-        }
+        /// <summary>
+        /// Unused main method.
+        /// </summary>
+        /// <param name="args"></param>
+        static void Main(string[] args) { }
 
+        /// <summary>
+        /// Converts an infix expression into a postfix expression.
+        /// </summary>
+        /// <param name="infix">Valid infix expression.</param>
+        /// <returns>Postfix expression.</returns>
         public string InfixToPostfix(string infix)
         {
 
